@@ -1,34 +1,89 @@
+<!-- Shortcut to open emoji -> windows + .  -->
+<!--  to open default html code -> !+tab-->
+<!-- to open settings -> crtl+, -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Nikhil</title>
+    <!-- <link rel="icon" type="image/x-icon" href="/images/favicon.ico"> -->
+
+    <style>
+      h1 {
+        color: black;
+        height: auto;
+        background: fixed;
+        font-size: xx-large;
+        font-family: sans-serif;
+      }
+
+      .hero {
+        color: brown;
+      }
+
+      .fb_logo {
+        height: 100px;
+        width: 100px;
+        /* border-color: black; */
+        border: 5px solid #555;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #f1f1f1;
+        opacity: 0.7;
+        object-fit: contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .palace {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+      }
+    </style>
   </head>
   <body>
-    Hello Nikhil !
-
     <script>
-      //   {
-      //     var a = 10;
-      //     let b = 20;
-      //   }
+      var stu = {
+        name: "Nikhil",
+        age: 20,
+      };
+      console.log(stu.name);
 
-      //   console.log(a);
-      //   console.log(b);
+      let name = "raj";
+      var naam = "raj";
+      naam = "g";
 
-      //   function fun() {
-      //     var c = 15;
-      //     let d = 20;
-      //     console.log(c);
-      //   }
+      name = "ganta";
 
-      //   var x1 = 10;
-      //   var x2 = "k";
+      console.log(name);
+      console.log(naam);
 
-      //   console.log(x1 + x2);
+      const mark = [10, 20, 30];
+      mark[1] = 40;
+
+      console.log(mark);
     </script>
-
-    <script src="scope.js"></script>
+    <h1></h1>
+    <h1 class="hero">Mi nombre es Nikhil 👍</h1>
+    <h3>Y cómo está tu día</h3>
+    <img
+      class="fb_logo"
+      src="https://www.facebook.com/images/fb_icon_325x325.png"
+      alt=""
+    />
+    <div>
+      <img
+        class="palace"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKN39V5sBR45jzOkgroR8dWfcDe_4eQPREfw&s"
+        alt=""
+      />
+    </div>
   </body>
 </html>
