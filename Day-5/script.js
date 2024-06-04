@@ -1,6 +1,6 @@
 /**
  * Takes the String and converts it to upperCase
- * @param {String} x - The String input.
+ * @param {String} text - The String input.
  * @returns {String} The product input String.
  * @example
  * convertToUpperCase("nikhil"); // returns NIKHIL
