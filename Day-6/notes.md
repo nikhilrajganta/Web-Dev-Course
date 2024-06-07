@@ -40,3 +40,5 @@ git log -Ssum -p`
 
 - `git revert <commit-ID>`
 - TO remove a commit that is committed
+
+3.
